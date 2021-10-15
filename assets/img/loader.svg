@@ -1,32 +1,34 @@
-<!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
-<svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
-            <stop stop-color="#fff" stop-opacity="0" offset="0%"/>
-            <stop stop-color="#fff" stop-opacity=".631" offset="63.146%"/>
-            <stop stop-color="#fff" offset="100%"/>
-        </linearGradient>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <g transform="translate(1 1)">
-            <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
-                <animateTransform
-                    attributeName="transform"
-                    type="rotate"
-                    from="0 18 18"
-                    to="360 18 18"
-                    dur="0.9s"
-                    repeatCount="indefinite" />
-            </path>
-            <circle fill="#fff" cx="36" cy="18" r="1">
-                <animateTransform
-                    attributeName="transform"
-                    type="rotate"
-                    from="0 18 18"
-                    to="360 18 18"
-                    dur="0.9s"
-                    repeatCount="indefinite" />
-            </circle>
-        </g>
-    </g>
-</svg>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta name="viewport" content="width=device-width" /><title>https://functionisland.net/assets/img/loader.svg</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css" /></head><body id="viewsource" class="highlight" style="tab-size: 4"><pre id="line1"><span></span><span class="comment">&lt;!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL --&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">svg</span> <span class="attribute-name">width</span>="<a class="attribute-value">38</a>" <span class="attribute-name">height</span>="<a class="attribute-value">38</a>" <span class="attribute-name">viewBox</span>="<a class="attribute-value">0 0 38 38</a>" <span class="attribute-name">xmlns</span>="<a class="attribute-value">http://www.w3.org/2000/svg</a>"&gt;</span><span>
+<span id="line3"></span>    </span><span>&lt;<span class="start-tag">defs</span>&gt;</span><span>
+<span id="line4"></span>        </span><span>&lt;<span class="start-tag">linearGradient</span> <span class="attribute-name">x1</span>="<a class="attribute-value">8.042%</a>" <span class="attribute-name">y1</span>="<a class="attribute-value">0%</a>" <span class="attribute-name">x2</span>="<a class="attribute-value">65.682%</a>" <span class="attribute-name">y2</span>="<a class="attribute-value">23.865%</a>" <span class="attribute-name">id</span>="<a class="attribute-value">a</a>"&gt;</span><span>
+<span id="line5"></span>            </span><span>&lt;<span class="start-tag">stop</span> <span class="attribute-name">stop-color</span>="<a class="attribute-value">#fff</a>" <span class="attribute-name">stop-opacity</span>="<a class="attribute-value">0</a>" <span class="attribute-name">offset</span>="<a class="attribute-value">0%</a>"<span>/</span>&gt;</span><span>
+<span id="line6"></span>            </span><span>&lt;<span class="start-tag">stop</span> <span class="attribute-name">stop-color</span>="<a class="attribute-value">#fff</a>" <span class="attribute-name">stop-opacity</span>="<a class="attribute-value">.631</a>" <span class="attribute-name">offset</span>="<a class="attribute-value">63.146%</a>"<span>/</span>&gt;</span><span>
+<span id="line7"></span>            </span><span>&lt;<span class="start-tag">stop</span> <span class="attribute-name">stop-color</span>="<a class="attribute-value">#fff</a>" <span class="attribute-name">offset</span>="<a class="attribute-value">100%</a>"<span>/</span>&gt;</span><span>
+<span id="line8"></span>        </span><span>&lt;/<span class="end-tag">linearGradient</span>&gt;</span><span>
+<span id="line9"></span>    </span><span>&lt;/<span class="end-tag">defs</span>&gt;</span><span>
+<span id="line10"></span>    </span><span>&lt;<span class="start-tag">g</span> <span class="attribute-name">fill</span>="<a class="attribute-value">none</a>" <span class="attribute-name">fill-rule</span>="<a class="attribute-value">evenodd</a>"&gt;</span><span>
+<span id="line11"></span>        </span><span>&lt;<span class="start-tag">g</span> <span class="attribute-name">transform</span>="<a class="attribute-value">translate(1 1)</a>"&gt;</span><span>
+<span id="line12"></span>            </span><span>&lt;<span class="start-tag">path</span> <span class="attribute-name">d</span>="<a class="attribute-value">M36 18c0-9.94-8.06-18-18-18</a>" <span class="attribute-name">id</span>="<a class="attribute-value">Oval-2</a>" <span class="attribute-name">stroke</span>="<a class="attribute-value">url(#a)</a>" <span class="attribute-name">stroke-width</span>="<a class="attribute-value">2</a>"&gt;</span><span>
+<span id="line13"></span>                </span><span>&lt;<span class="start-tag">animateTransform</span>
+<span id="line14"></span>                    <span class="attribute-name">attributeName</span>="<a class="attribute-value">transform</a>"
+<span id="line15"></span>                    <span class="attribute-name">type</span>="<a class="attribute-value">rotate</a>"
+<span id="line16"></span>                    <span class="attribute-name">from</span>="<a class="attribute-value">0 18 18</a>"
+<span id="line17"></span>                    <span class="attribute-name">to</span>="<a class="attribute-value">360 18 18</a>"
+<span id="line18"></span>                    <span class="attribute-name">dur</span>="<a class="attribute-value">0.9s</a>"
+<span id="line19"></span>                    <span class="attribute-name">repeatCount</span>="<a class="attribute-value">indefinite</a>" <span>/</span>&gt;</span><span>
+<span id="line20"></span>            </span><span>&lt;/<span class="end-tag">path</span>&gt;</span><span>
+<span id="line21"></span>            </span><span>&lt;<span class="start-tag">circle</span> <span class="attribute-name">fill</span>="<a class="attribute-value">#fff</a>" <span class="attribute-name">cx</span>="<a class="attribute-value">36</a>" <span class="attribute-name">cy</span>="<a class="attribute-value">18</a>" <span class="attribute-name">r</span>="<a class="attribute-value">1</a>"&gt;</span><span>
+<span id="line22"></span>                </span><span>&lt;<span class="start-tag">animateTransform</span>
+<span id="line23"></span>                    <span class="attribute-name">attributeName</span>="<a class="attribute-value">transform</a>"
+<span id="line24"></span>                    <span class="attribute-name">type</span>="<a class="attribute-value">rotate</a>"
+<span id="line25"></span>                    <span class="attribute-name">from</span>="<a class="attribute-value">0 18 18</a>"
+<span id="line26"></span>                    <span class="attribute-name">to</span>="<a class="attribute-value">360 18 18</a>"
+<span id="line27"></span>                    <span class="attribute-name">dur</span>="<a class="attribute-value">0.9s</a>"
+<span id="line28"></span>                    <span class="attribute-name">repeatCount</span>="<a class="attribute-value">indefinite</a>" <span>/</span>&gt;</span><span>
+<span id="line29"></span>            </span><span>&lt;/<span class="end-tag">circle</span>&gt;</span><span>
+<span id="line30"></span>        </span><span>&lt;/<span class="end-tag">g</span>&gt;</span><span>
+<span id="line31"></span>    </span><span>&lt;/<span class="end-tag">g</span>&gt;</span><span>
+<span id="line32"></span></span><span>&lt;/<span class="end-tag">svg</span>&gt;</span><span>
+<span id="line33"></span></span></pre></body></html>

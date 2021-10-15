@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no' />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@MrFUNCT1ON" />
+        <meta name="twitter:title" content="Stronghands Money" />
+        <meta name="twitter:description" content="Stronghands B4NK is an implementation of the classic Proof-of-Weak-Hands game theory as a smart contract and Dapp on multiple EVM-compatible chains." />
+        <meta name="twitter:image" content="https://stronghands.money/assets/img/twitter_banner.png" />
+
+        <meta property="og:url" content="https://stronghands.money" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="B4NK - Stronghands Money" />
+        <meta property="og:description" content="Stronghands B4NK is an implementation of the classic Proof-of-Weak-Hands game theory as a smart contract and Dapp on multiple EVM-compatible chains." />
+        <meta property="og:image" content="https://stronghands.money/assets/img/coin.png" />
+
+        <meta name="description" content="B4NK - Stronghands Money">
+        <meta name="author" content="Stronghands Money">
+
+        <meta name="theme-color" content="#000000">
+        <meta name="msapplication-navbutton-color" content="#000000">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+
+        <title>Stronghands Money</title>
+
+        <!-- Alertify -->
+        <link rel="stylesheet" href="assets/css/alertify.min.css">
+        <link rel="stylesheet" href="assets/css/alertify-themes/bootstrap.min.css">
+
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+
+        <link rel="stylesheet" href="assets/css/iconsmind_style.css">
+        <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/f352960784.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="wallpaper text-white">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/home.png" width="40px" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cube"></i> Dapps</a>
+                            <div class="dropdown-menu bg-dark roundedCorners text-white">
+                                <a class="dropdown-item text-white" href="hourglass.html"><i class="fas fa-hourglass"></i> Hourglass</a>
+                                <a class="dropdown-item text-white" href="gauntlet.html"><i class="fas fa-lock"></i> Gauntlet</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-money-bill-wave"></i> Vaults</a>
+                            <div class="dropdown-menu bg-dark roundedCorners text-white">
+                                <a class="dropdown-item text-white" href="vault.html?v=WBNB"><i class="far fa-hand-point-right"></i> WBNB</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=BUSD"><i class="far fa-hand-point-right"></i> BUSD</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=BTCB"><i class="far fa-hand-point-right"></i> BTCB</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=XSK"><i class="far fa-hand-point-right"></i> XSK</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=OGX"><i class="far fa-hand-point-right"></i> OGX</a>
+
+                                <div class="dropdown-separator"></div>
+
+                                <a class="dropdown-item text-white" href="vault.html?v=CAKE"><i class="far fa-hand-point-right"></i> CAKE</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=LINK"><i class="far fa-hand-point-right"></i> LINK</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=ETH"><i class="far fa-hand-point-right"></i> ETH</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=DAI"><i class="far fa-hand-point-right"></i> DAI</a>
+                                <a class="dropdown-item text-white" href="vault.html?v=ADA"><i class="far fa-hand-point-right"></i> ADA</a>
+                            </div>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-money-bill-wave"></i> Miners</a>
+                            <div class="dropdown-menu bg-dark roundedCorners text-white">
+                                <a class="dropdown-item text-white" href="miner.html?miner=1"><i class="far fa-hand-point-right"></i> POKR Token</a>
+                            </div>
+                        </li> -->
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <a class="btn btn-success roundedCorners text-dark my-2 my-sm-0" href="vault.html?v=CAKE"><i class="fas fa-cube"></i> Go to App</a>
+                    </form>
+                </div>
+              </nav>
+        </header>
+
+        <main style="margin-top: 100px;">
+            <div class="lobster-font container" id="homeSection">
+                <div class="row">
+                    <div class="col text-center">
+                        <br />
+                        <img src="/assets/img/token-200px.png" alt="" width="100" height="100"><br />
+                        <h1 class="display-5 fw-bold lobster-font">xGFI Staking Pool</h1>
+                        <small>Earn more rewards for staking your staked GFI!</small>
+                    </div>
+                </div>
+                <br />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-white">
+                            <div class="card-header text-left">
+                                <strong>Stake xGFI</strong>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <h3>0.00</h3>
+                                            <small>My Staked Balance</small>
+                                        </div>
+
+                                        <div class="col text-center">
+                                            <h3>0.00</h3>
+                                            <small>My Wallet Balance</small>
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <label><strong>Tokens to Stake/Unstake</strong></label>
+                                            <input type="number" class="form-control roundedCorners" placeholder="Quantity to Stake/Unstake" />
+                                            <small>Enter a quantity of tokens to stake or unstake</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 text-center">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-block btn-md btn-outline-primary">Stake</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 text-center">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-block btn-md btn-outline-danger">Unstake</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-white">
+                            <div class="card-header text-left">
+                                <strong>Collect Rewards</strong>
+                            </div>
+                            
+                            <div class="card-body text-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <h3>0.00</h3>
+                                            <small>My Available Rewards</small>
+                                        </div>
+
+                                        <div class="col text-center">
+                                            <h3>0.00</h3>
+                                            <small>Total Rewards Remaining</small>
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                    <div class="row">
+                                        <div class="col text-left">
+                                            <label><strong>Reward Recipient</strong> <em>(optional)</em></label>
+                                            <input type="text" class="form-control roundedCorners" placeholder="0xAddress..." />
+                                            <small>Enter an address above to send your rewards to, instead of your own wallet!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-block btn-md btn-success">Collect Rewards</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+
+                <div class="row">
+                    <div class="col text-center">
+                        <h3 class="lobster-font">Take your share of the platform fees by staking <span class="colouredHeading">xGFI</span>.</h3>
+                        <small>
+                            As transactions occur within the ecosystem, fees collected are sent to the Distillery, where they will be traded via a public AMM (such as PancakeSwap or ShibaNova DEX) for GFI tokens.
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="wrongNetwork">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="assets/img/home.png" width="50%" />
+                        <h1 class="text-danger">Wrong Chain!</h1>
+                        <p>
+                            You need to connect to <strong>Binance Smart Chain</strong> <small><em>(Chain ID:
+                                    56)</em></small> before you can use Stronghands B4NK!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <br />
+        <br />
+        <br />
+
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark" style="background-color: rgba(0,0,0,1);">
+            <ul class="navbar-nav mr-auto ml-auto">
+                <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+                <coingecko-coin-price-marquee-widget
+                    coin-ids="bitcoin,ethereum,wbnb,binance-usd,dai,chainlink,pancakeswap-token,sidekick-token,cardano,matic-network"
+                    currency="usd" background-color="#000000" locale="en" font-color="#ffffff">
+                </coingecko-coin-price-marquee-widget>
+            </ul>
+        </nav>
+
+        <!-- Referrals modal -->
+        <div class="modal" id="aboutModal">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light darkBorder">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">How to Play</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-left">
+                                    <strong>🚀 Deposit <span class="tokenSymbol">---</span></strong><br />
+                                    <p>Upon depositing <span class="tokenSymbol">---</span>, you will receive B4NK.
+                                        These B4NK are &quot;shares&quot; of the Hourglass - while you hold them in your
+                                        wallet, they represent your proportionate share of all future Deposit and
+                                        Withdrawal fees of the contract.</p>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col text-left">
+                                    <strong>♻ Compound Earnings</strong><br />
+                                    <p>When you hold B4NK, you earn <span class="tokenSymbol">---</span> dividends -
+                                        Quickly increase your portion of the Hourglass supply by compounding them! This
+                                        saves an extra transaction of having to withdraw <em>then</em> re-deposit!</p>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col text-left">
+                                    <strong>💸 Withdraw <span class="tokenSymbol">---</span></strong><br />
+                                    <p>If you so desire, you can sell your B4NK and collect the underlying <span
+                                            class="tokenSymbol">---</span> from the contract. Just enter an amount,
+                                        press &quot;Withdraw&quot; and check your dividends total!</p>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col text-left">
+                                    <strong>🌾 Harvest <span class="tokenSymbol">---</span></strong><br />
+                                    <p>Both unstaked <span class="tokenSymbol">---</span> and your earnings will build
+                                        up as others continue to use the contract - to get your <span
+                                            class="tokenSymbol">---</span> back into your wallet, you will need to
+                                        harvest it first!</p>
+                                </div>
+                            </div>
+                            <hr />
+
+                            <div class="row">
+                                <div class="col text-left">
+                                    <strong>💎 Transfer Shares</strong><br />
+                                    <p>Transferring B4NK shares between addresses incurs no fees - so it&apos;s a great
+                                        way to facilitate transfer of value (or paying your friends back!).</p>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <button type="button" class="btn btn-block btn-md btn-info"
+                                        data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for notifications and errors -->
+        <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><span id="alertTitle">Hey There!</span></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img id="alertImage">
+                                    <p id="alertId"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <button type="button" class="btn btn-outline-semi-light default" data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- Bootstrap 4 and dependencies -->
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/popper.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- ALertify JS -->
+        <script src="assets/js/alertify.min.js" type="text/javascript"></script>
+
+        <!-- Site-Specific dependencies -->
+        <script src="assets/js/bignumber.min.js"></script>
+        <script src="assets/js/clipboard.min.js"></script>
+
+        <script src="assets/js/tether.min.js"></script>
+
+        <script src="assets/js/metamask.web3.min.js"></script>
+
+        <!-- Contract Scripts -->
+        <script type="text/javascript" src="assets/lib/app.general.js"></script>
+        <script type="text/javascript" src="assets/lib/vault.js"></script>
+    </body>
+
+</html>

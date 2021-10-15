@@ -1,0 +1,225 @@
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.responsiveImage {
+    width: 50%;
+    height: auto;
+    max-width: 400px;
+  }
+
+  .responsiveImage2 {
+    width: 70%;
+    height: auto;
+    max-width: 700px;
+  }
+
+  .responsiveImage3 {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+  }
+
+  .responsiveImageSmall {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+
+.responsiveFloatingImage {
+    width: 60%;
+    height: 60%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+.responsiveFloatingImage {
+    width: 10%;
+    height: 10%;
+    max-width: 100px;
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.orangeButton {
+    background-color: rgb(248, 128, 26);
+}
+
+.purpleButton {
+    background-color: rgb(99, 45, 169);
+}
+
+.lightBorder {
+    border: 5px solid #ffffff;
+}
+
+/* Rounded Corner FX */
+/* 0,0,0,0 - top left, top right, bottom right, bottom left */
+.rcTopLeft {
+    border-radius: 10px 0px 0px 0px;
+}
+
+.rcTopRight {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.rcBottomLeft {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.rcBottomRight {
+    border-radius: 10px 0px 10px 0px;
+}
+
+.rcTop {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rcBottom {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.rcLeft {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.rcRight {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.roundedCorners {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rcNone {
+    border-radius: 0px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 400px) {
+    .responsiveFloatingImage {
+        width: 60%;
+        height: 60%;
+        float: left;
+        padding: 5px;
+        margin-right: 20px;
+    }
+}
+
+/* .content-wrapper {
+    background: rgb(66,10,125);
+    background: linear-gradient(180deg, rgba(66,10,125,1) 0%, rgba(60,37,93,1) 50%, rgba(0,0,0,1) 100%);
+} */
+
+.wallpaper {
+    background: url(../img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 15px;
+    border: 3px solid #3c3c3c;
+}
+
+.glassPanel {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+
+.selectedMenuItem {
+    color: #e4c039;
+    text-decoration: none;
+}
+
+.colouredHeading {
+    color: #e4c039;
+}
+
+.colouredHeading2 {
+    color: #7c9740;
+}
+
+.colouredButton {
+    background-color: #e4c039;
+}
+
+.colouredButton2 {
+    background-color: #7c9740;
+}
+
+.twitterIcon {
+    color: #24a4f4;
+}
+
+.telegramIcon {
+    color: #2ba2de;
+}
+
+.discordIcon {
+    color: #8c9de1;
+}
+
+.bg-func {
+    background-color: #56b4d3;
+}
+
+.animatedZoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.animatedZoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.animatedMenuItem {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.animatedMenuItem:hover {
+    transform: scale(1.1);
+    /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.pulseEffected {
+    animation: pulse 3s infinite;
+}
+
+.cardBorder {
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.multiplierIndicator {
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    padding: 3px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+    }
+}
