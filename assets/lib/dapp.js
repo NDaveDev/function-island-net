@@ -308,7 +308,7 @@ window.addEventListener('load', function () {
 
     $('#copy-ref-link').click(function (e) {
         e.preventDefault();
-        copyToClipboard('http://functionisland.net/dashboard.html?ref=' + currentAddress);
+        copyToClipboard('http://functionisland.net/hourglass.html?ref=' + currentAddress);
         alertify.success('Copied Referral Link!');
     });
 });
